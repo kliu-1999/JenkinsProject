@@ -5,7 +5,7 @@ pipeline {
     maven 'Maven3'
   }
   
-  environment{
+  environment {
     APP_NAME = "JenkinsProject-pipeline"
     RELEASE = "1.0.0"
     DOCKER_USER = "kliu1999"
