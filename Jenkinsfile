@@ -6,7 +6,7 @@ pipeline {
   }
   
   environment {
-    APP_NAME = "JenkinsProject-pipeline"
+    APP_NAME = "jenkins-project-pipeline"
     RELEASE = "1.0.0"
     DOCKER_USER = "kliu1999"
     DOCKER_PASS = 'dockerhub'
